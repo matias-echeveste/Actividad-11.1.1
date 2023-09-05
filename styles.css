@@ -1,0 +1,24 @@
+/* Estilos para centrar el div y darle un aspecto estético */
+
+/* Establece el cuerpo de la página como flexbox para centrar el contenido verticalmente y horizontalmente */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que todo el viewport esté cubierto verticalmente */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    background-color: #f0f0f0; /* Color de fondo para la página */
+  }
+  
+  /* Estilos para el contenedor del reproductor de YouTube */
+  #player {
+    width: 640px; /* Ancho deseado del reproductor */
+    height: 360px; /* Altura deseada del reproductor */
+    border: 1px solid #ccc; /* Borde alrededor del reproductor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra alrededor del reproductor */
+    background-color: #fff; /* Color de fondo del reproductor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
